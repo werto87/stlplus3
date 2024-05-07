@@ -1,6 +1,0 @@
-Makefile
-strings.dsp
-strings.vcproj
-*.hpp
-*.cpp
-*.tpp

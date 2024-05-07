@@ -1,0 +1,1 @@
+. "/home/walde/workspace/cxx/stlplus3/trunk/build/memory-sanitizer-gcc/deactivate_conanbuildenv-debug-x86_64.sh"

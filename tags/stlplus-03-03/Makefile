@@ -1,3 +1,0 @@
-include ../makefiles/subdirectories.mak
-
-

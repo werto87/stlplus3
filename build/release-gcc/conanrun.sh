@@ -1,0 +1,1 @@
+. "/home/walde/workspace/cxx/stlplus3/trunk/build/release-gcc/conanrunenv-release-x86_64.sh"

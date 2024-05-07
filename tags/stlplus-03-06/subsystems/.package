@@ -1,6 +1,0 @@
-Makefile
-subsystems.dsp
-subsystems.vcxproj
-subsystems.vcxproj.filters
-*.hpp
-*.cpp

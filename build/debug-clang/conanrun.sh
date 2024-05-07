@@ -1,0 +1,1 @@
+. "/home/walde/workspace/cxx/stlplus3/trunk/build/debug-clang/conanrunenv-debug-x86_64.sh"
