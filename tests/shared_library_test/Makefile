@@ -1,7 +1,7 @@
 SHARED := shared_library_test
 
 ifeq ($(MONOLITHIC),on)
-LIBRARIES := ../../../stlplus3/source
+LIBRARIES := ../../../stlplus/source
 else
 LIBRARIES := ../../strings ../../persistence ../../containers ../../portability
 endif

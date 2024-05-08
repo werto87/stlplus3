@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
-#include "smart_ptr.hpp"
+#include "stlplus/containers/smart_ptr.hpp"
 #include "persistent_callback.hpp"
 #include "persistent_string.hpp"
 #include "persistent_vector.hpp"

@@ -35,7 +35,7 @@ Subversion
 If you want the latest development version (which might occasionally
 break because it is a development version), get it via Subversion:
 
-svn checkout svn://svn.code.sf.net/p/stlplus/stlplus3/trunk stlplus3
+svn checkout svn://svn.code.sf.net/p/stlplus/stlplus/trunk stlplus3
 svn checkout svn://svn.code.sf.net/p/stlplus/makefiles/trunk makefiles
 
 You can also get stable releases this way, these are stored in the
@@ -43,12 +43,12 @@ You can also get stable releases this way, these are stored in the
 
 To get a listing of the versions available:
 
-svn list svn://svn.code.sf.net/p/stlplus/stlplus3/tags
+svn list svn://svn.code.sf.net/p/stlplus/stlplus/tags
 svn list svn://svn.code.sf.net/p/stlplus/makefiles/tags
 
 In the following example you are checking out stlplus3 v3.15 and makefiles v1.11.
 
-svn checkout svn://svn.code.sf.net/p/stlplus/stlplus3/tags/stlplus3-03-15 stlplus3
+svn checkout svn://svn.code.sf.net/p/stlplus/stlplus/tags/stlplus3-03-15 stlplus3
 svn checkout svn://svn.code.sf.net/p/stlplus/makefiles/tags/makefiles-01-11 makefiles
 
 Changes and Versions
@@ -57,7 +57,7 @@ Changes and Versions
 For details of the different versions and the changes between them,
 see the changes log:
 
-http://stlplus.sourceforge.net/stlplus3/docs/changes.html
+http://stlplus.sourceforge.net/stlplus/docs/changes.html
 
 Directory Structure
 -------------------
@@ -110,5 +110,5 @@ More information
 
 For more details about building the collection, see:
 
-https://stlplus.sourceforge.net/stlplus3/docs/building.html
+https://stlplus.sourceforge.net/stlplus/docs/building.html
 

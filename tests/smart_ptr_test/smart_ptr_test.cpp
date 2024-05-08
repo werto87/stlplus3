@@ -1,4 +1,4 @@
-#include "smart_ptr.hpp"
+#include "stlplus/containers/smart_ptr.hpp"
 #include "persistent_smart_ptr.hpp"
 #include "persistent_string.hpp"
 #include "persistent_pair.hpp"

@@ -1,6 +1,6 @@
 IMAGE     := dynaload_test
 ifeq ($(MONOLITHIC),on)
-LIBRARIES := ../../../stlplus3/source
+LIBRARIES := ../../../stlplus/source
 else
 LIBRARIES := ../../portability
 endif

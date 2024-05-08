@@ -1,4 +1,4 @@
-#include "inf.hpp"
+#include "stlplus/portability/inf.hpp"
 #include "timer.hpp"
 #include "build.hpp"
 #include "file_system.hpp"

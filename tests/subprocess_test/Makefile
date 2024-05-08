@@ -1,6 +1,6 @@
 IMAGE     = $(LIBNAME)
 ifeq ($(MONOLITHIC),on)
-LIBRARIES := ../../../stlplus3/source
+LIBRARIES := ../../../stlplus/source
 else
 LIBRARIES := ../../strings ../../portability
 endif

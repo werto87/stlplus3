@@ -1,7 +1,7 @@
 IMAGE     := bitset_test
 
 ifeq ($(MONOLITHIC),on)
-LIBRARIES := ../../../stlplus3/source
+LIBRARIES := ../../../stlplus/source
 else
 LIBRARIES := ../../strings ../../persistence ../../containers ../../portability
 endif
