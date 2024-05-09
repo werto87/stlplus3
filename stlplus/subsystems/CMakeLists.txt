@@ -23,8 +23,6 @@ install(FILES
         DESTINATION include/stlplus/stlplus/subsystems
 )
 
-install(TARGETS stlplus DESTINATION stlplus)
-
 
 
 

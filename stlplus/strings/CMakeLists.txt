@@ -19,10 +19,6 @@ target_sources(stlplus PUBLIC
         string_vector.cpp
 )
 
-
-
-
-
 install(FILES
         file_utilities.hpp
         format_types.hpp
@@ -120,7 +116,6 @@ install(FILES
         DESTINATION include/stlplus/strings
 )
 
-install(TARGETS stlplus DESTINATION stlplus)
 
 
 

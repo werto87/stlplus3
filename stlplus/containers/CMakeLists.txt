@@ -24,8 +24,6 @@ install(FILES
     DESTINATION include/stlplus/containers
 )
 
-install(TARGETS stlplus DESTINATION stlplus)
-
 
 
 

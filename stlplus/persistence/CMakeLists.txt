@@ -79,4 +79,3 @@ install(FILES
     persistent.hpp
     DESTINATION include/stlplus/persistence
         )
-install(TARGETS stlplus DESTINATION stlplus)

@@ -35,8 +35,6 @@ install(FILES
         DESTINATION include/stlplus/portability
 )
 
-install(TARGETS stlplus DESTINATION stlplus)
-
 
 
 

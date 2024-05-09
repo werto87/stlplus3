@@ -29,4 +29,4 @@ set_target_properties(
         VISIBILITY_INLINES_HIDDEN YES
 )
 
-
+install(TARGETS stlplus DESTINATION lib)
