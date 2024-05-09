@@ -17,6 +17,7 @@ target_sources(stlplus PUBLIC
 )
 
 install(FILES
+        build.hpp
         debug.hpp
         dprintf.hpp
         dynaload.hpp
