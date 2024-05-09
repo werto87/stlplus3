@@ -10,8 +10,8 @@
 //   Generate a string representation of a smart pointer
 
 ////////////////////////////////////////////////////////////////////////////////
-#include "sstlplus/strings/trings_fixes.hpp"
-#include "sstlplus/strings/imple_ptr.hpp"
+#include "stlplus/strings/strings_fixes.hpp"
+#include "stlplus/containers/simple_ptr.hpp"
 #include <string>
 
 ////////////////////////////////////////////////////////////////////////////////

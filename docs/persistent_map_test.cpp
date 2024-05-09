@@ -1,14 +1,14 @@
 #include <string>
 #include <map>
-#include "persistent_contexts.hpp"
-#include "persistent_map.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
-#include "persistent_shortcuts.hpp"
-#include "strings.hpp"
-#include "dprintf.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_map.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/dprintf.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 
 ////////////////////////////////////////////////////////////////////////////////
 

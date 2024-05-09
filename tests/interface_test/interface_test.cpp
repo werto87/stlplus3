@@ -2,13 +2,13 @@
 #include <vector>
 #include <iostream>
 #include "stlplus/containers/smart_ptr.hpp"
-#include "persistent_interface.hpp"
-#include "persistent_string.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_shortcuts.hpp"
-#include "persistent_smart_ptr.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_interface.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/persistence/persistent_smart_ptr.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 #include <stdio.h>
 
 #define NUMBER 1000

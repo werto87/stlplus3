@@ -1,7 +1,7 @@
-#include "build.hpp"
-#include "udp_sockets.hpp"
-#include "string_utilities.hpp"
-#include "subprocesses.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/portability/udp_sockets.hpp"
+#include "stlplus/strings/string_utilities.hpp"
+#include "stlplus/portability/subprocesses.hpp"
 #include <vector>
 #include <string>
 #include <iostream>

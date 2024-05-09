@@ -11,7 +11,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 #include "stlplus/strings/strings_fixes.hpp"
-#include "stlplus/strings/simple_ptr.hpp"
+#include "stlplus/containers/simple_ptr.hpp"
 #include <string>
 #include <iostream>
 

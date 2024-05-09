@@ -11,7 +11,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 #include "stlplus/strings/strings_fixes.hpp"
-#include "stlplus/strings/matrix.hpp"
+#include "stlplus/containers/matrix.hpp"
 #include <string>
 #include <iostream>
 

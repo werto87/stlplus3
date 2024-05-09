@@ -11,7 +11,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 #include "stlplus/strings/strings_fixes.hpp"
-#include "stlplus/strings/foursome.hpp"
+#include "stlplus/containers/foursome.hpp"
 #include <string>
 #include <iostream>
 

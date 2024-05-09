@@ -1,7 +1,7 @@
-#include "persistent_shortcuts.hpp"
-#include "persistent_cstring.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/persistence/persistent_cstring.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 #include <fstream>
 #include <string.h>
 #include <stdio.h>

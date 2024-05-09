@@ -1,6 +1,6 @@
 /* This test is intended to test the build process for creating shared libraries.
    There is no test program to run, but the shared library created by this test is used in the dynaload test. */
-#include "version.hpp"
+#include "stlplus/portability/version.hpp"
 #include <string.h>
 
 // Visual Studio requires the export directive on every function callable in the DLL

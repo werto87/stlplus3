@@ -11,7 +11,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 #include "stlplus/strings/strings_fixes.hpp"
-#include "stlplus/strings/ntree.hpp"
+#include "stlplus/containers/ntree.hpp"
 #include <string>
 #include <iostream>
 

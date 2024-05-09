@@ -2,14 +2,14 @@
 #include <vector>
 #include <iostream>
 #include "stlplus/containers/smart_ptr.hpp"
-#include "persistent_callback.hpp"
-#include "persistent_string.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_shortcuts.hpp"
-#include "persistent_smart_ptr.hpp"
-#include "file_system.hpp"
-#include "strings.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_callback.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/persistence/persistent_smart_ptr.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/build.hpp"
 
 #define NUMBER 1000
 #define DATA "callback_test.tmp"

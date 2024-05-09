@@ -5,13 +5,13 @@
   Test the ini_manager subsystem
 
 ------------------------------------------------------------------------------*/
-#include "debug.hpp"
-#include "build.hpp"
-#include "ini_manager.hpp"
-#include "file_system.hpp"
-#include "print_vector.hpp"
-#include "print_string.hpp"
-#include "string_utilities.hpp"
+#include "stlplus/portability/debug.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/subsystems/ini_manager.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/strings/print_vector.hpp"
+#include "stlplus/strings/print_string.hpp"
+#include "stlplus/strings/string_utilities.hpp"
 
 ////////////////////////////////////////////////////////////////////////////////
 // utility for printing a vector of strings, used a lot in this program

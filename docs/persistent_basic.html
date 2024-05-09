@@ -159,8 +159,8 @@ enum traffic_lights {red, red_amber, green, amber};
 functions, thus hiding the use of the template:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
-#include "persistent_enum.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_enum.hpp"
 
 void dump_traffic_lights(stlplus::dump_context&amp; context, const traffic_lights&amp; lights)
 {
@@ -221,8 +221,8 @@ standard new. If the data field is non-null on entry it will be deleted by stand
 make it null in the first place.</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
-#include "persistent_cstring.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_cstring.hpp"
 
 ...
 

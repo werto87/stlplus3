@@ -1,9 +1,9 @@
-#include "persistent_bitset.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_shortcuts.hpp"
-#include "file_system.hpp"
-#include "strings.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_bitset.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/build.hpp"
 #include <string>
 #include <bitset>
 #include <vector>

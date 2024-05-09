@@ -1,12 +1,12 @@
-#include "digraph.hpp"
-#include "persistent_contexts.hpp"
-#include "persistent_digraph.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
-#include "persistent_shortcuts.hpp"
-#include "string_int.hpp"
-#include "build.hpp"
+#include "stlplus/containers/digraph.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_digraph.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/strings/string_int.hpp"
+#include "stlplus/portability/build.hpp"
 #include <vector>
 #include <iostream>
 

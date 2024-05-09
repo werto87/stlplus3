@@ -68,9 +68,9 @@ template function does this by taking the name of the element dump functions as 
 
 <pre class="cpp">
 #include &lt;string&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_ntree.hpp"
-#include "persistent_string.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_ntree.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
 
 void stlplus::dump_string_ntree(stlplus::dump_context&amp; context, const stlplus::ntree&lt;std::string&gt;&amp; data)
 {
@@ -94,8 +94,8 @@ std::triple contains three different types, so requires three function names for
 #include &lt;string&gt;
 #include "triple.hpp"
 #include "persistent_triple.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
 
 typedef stlplus::triple&lt;std::string,int,int&gt; string_int_int_triple;
 
@@ -261,10 +261,10 @@ void stlplus::restore_triple(stlplus::restore_context&amp;, stlplus::triple&lt;T
 triple. For example, if you were using a triple containing a string and two ints:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
 #include "persistent_triple.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
 
 typedef std::triple&lt;std::string,int,int&gt; string_int_int_triple;
 

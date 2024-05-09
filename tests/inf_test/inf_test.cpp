@@ -1,10 +1,10 @@
 #include "stlplus/portability/inf.hpp"
-#include "timer.hpp"
-#include "build.hpp"
-#include "file_system.hpp"
-#include "persistent_inf.hpp"
-#include "persistent_shortcuts.hpp"
-#include "strings.hpp"
+#include "stlplus/subsystems/timer.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/persistence/persistent_inf.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/strings/strings.hpp"
 #include <map>
 #include <stdio.h>
 #include <stdlib.h>

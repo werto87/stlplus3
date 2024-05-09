@@ -88,7 +88,7 @@ data members even though the members are declared as private.</p>
 declarations added:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
 
 class point
 {
@@ -110,7 +110,7 @@ void restore_point(stlplus::restore_context&amp; context, point&amp; pt);
 the type used for the three dimensions of a point:</p>
 
 <pre class="cpp">
-#include "persistent_int.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
 
 void dump_point(stlplus::dump_context&amp; context, const point&amp; pt)
 {
@@ -149,7 +149,7 @@ style to write dump and restore functions that call the template functions, thus
 the template:</p>
 
 <pre class="cpp">
-#include "persistent_enum.hpp"
+#include "stlplus/persistence/persistent_enum.hpp"
 
 void dump_traffic_light(stlplus::dump_context&amp; context, const traffic_light&amp; lights)
 {
@@ -175,7 +175,7 @@ structure. In this way, dump and restore routines can be built up a layer at a t
 <p>The example will represent an edge as two points:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
 
 class edge
 {
@@ -235,8 +235,8 @@ edge. This has already been written in the last section. Therefore, the dump fun
 of edges is very simple to write, as is the restore function:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
-#include "persistent_vector.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
 
 void dump_edge_vector(stlplus::dump_context&amp; context, const std::vector&lt;edge&gt;&amp; e)
 {
@@ -271,15 +271,15 @@ include will be explained as the example unfolds:</p>
 <pre class="cpp">
 #include &lt;string&gt;
 #include &lt;map&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
-#include "persistent_map.hpp"
-#include "persistent_shortcuts.hpp"
-#include "strings.hpp"
-#include "dprintf.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_map.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/dprintf.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 </pre>
 
 <p>The following definition is used to define a type that maps an
@@ -470,9 +470,9 @@ include will become clear as the example unfolds:</p>
 <pre class="cpp">
 #include &lt;string&gt;
 #include &lt;vector&gt;
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
-#include "persistent_vector.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
 </pre>
 
 <p>The user-defined data structure is a class for storing email addresses. The
@@ -556,7 +556,7 @@ void restore_address_book(stlplus::restore_context&amp; context, address_book&am
 dumped, then restored to another address_book object:</p>
 
 <pre class="cpp">
-#include "persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
 #include &lt;fstream&gt;
 
 &lt;all the code for the address book above&gt;
@@ -600,7 +600,7 @@ on <a href="persistent_pointers.html#interfaces">persistent polymorphs</a>. This
 family of polymorphic classes from the <a href="persistent_pointers.html#interfaces">persistent interface</a>.</p>
 
 <pre class="cpp">
-#include "persistent_interface.hpp"
+#include "stlplus/persistence/persistent_interface.hpp"
 
 class base : public stlplus::persistent
 </pre>
@@ -839,7 +839,7 @@ derived, specific dump and restore functions can be
 written that simply call the above template functions:</p>
 
 <pre class="cpp">
-#include "persistent_interface.hpp"
+#include "stlplus/persistence/persistent_interface.hpp"
 
 void dump_base(stlplus::dump_context&amp; context, const base*&amp; ptr)
 {
@@ -874,7 +874,7 @@ base* is simply a case of writing a function that calls the
 template dump/restore for the smart pointer class:</p>
 
 <pre class="cpp">
-#include "persistent_smart_ptr.hpp"
+#include "stlplus/persistence/persistent_smart_ptr.hpp"
 
 void dump_base_ptr(stlplus::dump_context&amp; context, const base_ptr&amp; ptr)
 {
@@ -894,7 +894,7 @@ the stored element. This is because the dump/restore <em>methods</em> will be us
 <p>The final stage is to make a vector of these persistent:</p>
 
 <pre class="cpp">
-#include "persistent_vector.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
 
 void dump_base_vector(stlplus::dump_context&amp; context, const base_vector&amp; vec)
 {
@@ -963,8 +963,8 @@ void restore_<em>class</em>(stlplus::restore_context&amp; context, void*&amp; da
 friends:</p>
 
 <pre class="cpp">
-#include "persistent_int.hpp"
-#include "persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
 
 class base
 {

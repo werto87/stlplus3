@@ -79,9 +79,9 @@ this by taking the name of the element dump function as a parameter.</p>
 <pre class="cpp">
 #include &lt;string&gt;
 #include &lt;vector&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_string.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
 
 void dump_string_vector(stlplus::dump_context&amp; context, const std::vector&lt;std::string&gt;&amp; data)
 {
@@ -104,10 +104,10 @@ std::pair contains two different types, so requires two function names for each 
 <pre class="cpp">
 #include &lt;string&gt;
 #include &lt;map&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_pair.hpp"
-#include "persistent_int.hpp"
-#include "persistent_string.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_pair.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
 
 typedef std::pair&lt;std::string,int&gt; string_int_pair;
 
@@ -209,10 +209,10 @@ pair. For example, if you were using a pair containing a string and an int:</p>
 <pre class="cpp">
 #include &lt;string&gt;
 #include &lt;map&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_pair.hpp"
-#include "persistent_string.hpp"
-#include "persistent_int.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_pair.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
 
 typedef std::pair&lt;std::string,int&gt; string_int_pair;
 
@@ -443,9 +443,9 @@ functions. For example:</p>
 <pre class="cpp">
 #include &lt;bitset&gt;
 #include &lt;vector&gt;
-#include "persistent_contexts.hpp"
-#include "persistent_bitset.hpp"
-#include "persistent_vector.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_bitset.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
 
 typedef std::bitset&lt;100&gt; flags;
 typedef std::vector&lt;flags&gt; flags_vector;

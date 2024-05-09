@@ -11,7 +11,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////
 #include "stlplus/strings/strings_fixes.hpp"
-#include "stlplus/strings/hash.hpp"
+#include "stlplus/containers/hash.hpp"
 #include <string>
 #include <iostream>
 

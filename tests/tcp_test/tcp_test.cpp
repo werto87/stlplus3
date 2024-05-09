@@ -1,8 +1,8 @@
-#include "build.hpp"
-#include "tcp_sockets.hpp"
-#include "string_utilities.hpp"
-#include "subprocesses.hpp"
-#include "file_system.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/portability/tcp_sockets.hpp"
+#include "stlplus/strings/string_utilities.hpp"
+#include "stlplus/portability/subprocesses.hpp"
+#include "stlplus/portability/file_system.hpp"
 #include <vector>
 #include <string>
 #include <iostream>

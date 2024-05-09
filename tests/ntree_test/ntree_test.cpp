@@ -1,13 +1,13 @@
-#include "persistent_ntree.hpp"
-#include "persistent_map.hpp"
-#include "persistent_string.hpp"
-#include "persistent_shortcuts.hpp"
-#include "file_system.hpp"
-#include "print_ntree.hpp"
-#include "print_vector.hpp"
-#include "print_map.hpp"
-#include "print_string.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_ntree.hpp"
+#include "stlplus/persistence/persistent_map.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/strings/print_ntree.hpp"
+#include "stlplus/strings/print_vector.hpp"
+#include "stlplus/strings/print_map.hpp"
+#include "stlplus/strings/print_string.hpp"
+#include "stlplus/portability/build.hpp"
 #include <string>
 #include <map>
 

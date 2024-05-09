@@ -1,10 +1,10 @@
-#include "build.hpp"
-#include "file_system.hpp"
-#include "persistent_contexts.hpp"
-#include "persistent_int.hpp"
-#include "persistent_vector.hpp"
-#include "persistent_shortcuts.hpp"
-#include "print_vector.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/persistence/persistent_contexts.hpp"
+#include "stlplus/persistence/persistent_int.hpp"
+#include "stlplus/persistence/persistent_vector.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/strings/print_vector.hpp"
 #include <vector>
 #include <iostream>
 

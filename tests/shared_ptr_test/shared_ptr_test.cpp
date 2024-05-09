@@ -2,10 +2,10 @@
 #include <vector>
 #include <string>
 #include <memory>
-#include "persistence.hpp"
-#include "strings.hpp"
-#include "build.hpp"
-#include "file_system.hpp"
+#include "stlplus/persistence/persistence.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/build.hpp"
+#include "stlplus/portability/file_system.hpp"
 
 using namespace std;
 

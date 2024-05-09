@@ -1,8 +1,8 @@
-#include "persistence.hpp"
-#include "file_system.hpp"
-#include "string_stl.hpp"
-#include "string_basic.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistence.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/strings/string_stl.hpp"
+#include "stlplus/strings/string_basic.hpp"
+#include "stlplus/portability/build.hpp"
 #include <string>
 #include <list>
 #include <iostream>

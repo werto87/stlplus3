@@ -15,19 +15,6 @@ add_subdirectory(portability)
 add_subdirectory(strings)
 add_subdirectory(subsystems)
 
-
-
-
-
-
-
-# target_link_libraries(stlplus PUBLIC
-#         SQLite::SQLite3
-#         soci::soci
-#         magic_enum::magic_enum
-#         boost::boost
-#         )
-
 target_include_directories(stlplus
         PUBLIC
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}>

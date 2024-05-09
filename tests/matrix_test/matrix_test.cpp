@@ -1,11 +1,11 @@
 #include <string>
-#include "persistent_matrix.hpp"
-#include "persistent_string.hpp"
-#include "persistent_shortcuts.hpp"
-#include "dprintf.hpp"
-#include "strings.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_matrix.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/portability/dprintf.hpp"
+#include "stlplus/strings/strings.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 
 ////////////////////////////////////////////////////////////////////////////////
 

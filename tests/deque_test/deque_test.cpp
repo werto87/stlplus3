@@ -1,8 +1,8 @@
-#include "persistent_deque.hpp"
-#include "persistent_string.hpp"
-#include "persistent_shortcuts.hpp"
-#include "file_system.hpp"
-#include "build.hpp"
+#include "stlplus/persistence/persistent_deque.hpp"
+#include "stlplus/persistence/persistent_string.hpp"
+#include "stlplus/persistence/persistent_shortcuts.hpp"
+#include "stlplus/portability/file_system.hpp"
+#include "stlplus/portability/build.hpp"
 #include <string>
 #include <deque>
 
