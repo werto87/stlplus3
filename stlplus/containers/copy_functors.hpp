@@ -30,7 +30,7 @@ namespace stlplus
   public:
     T* operator() (const T& from)
       {
-        return new T(from);
+        return new T(from); 
       }
   };
 

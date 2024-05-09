@@ -18,7 +18,7 @@ add_subdirectory(subsystems)
 target_include_directories(stlplus
         PUBLIC
         $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}>
-        )
+)
 
 target_compile_features(stlplus PUBLIC cxx_std_20)
 
@@ -26,11 +26,7 @@ set_target_properties(
         stlplus
         PROPERTIES VERSION ${PROJECT_VERSION}
         CXX_VISIBILITY_PRESET hidden
-        VISIBILITY_INLINES_HIDDEN YES)
+        VISIBILITY_INLINES_HIDDEN YES
+)
 
-install(FILES
-        convenienceFunctionForSoci.hxx
-        concept.hxx
-        DESTINATION include/stlplus
-        )
-install(TARGETS stlplus DESTINATION lib)
+
