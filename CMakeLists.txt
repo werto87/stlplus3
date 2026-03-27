@@ -74,6 +74,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_custom_target(copy_compile_commands_json ALL
                   DEPENDS ${CMAKE_SOURCE_DIR}/compile_commands.json)
 
+if(NOT CMAKE_GENERATOR MATCHES "Visual Studio")                  
 add_custom_command(
   DEPENDS ${CMAKE_BINARY_DIR}/compile_commands.json
   OUTPUT ${CMAKE_SOURCE_DIR}/compile_commands.json
@@ -82,7 +83,7 @@ add_custom_command(
   COMMENT
     "copy compile_commands.json build to compile_commands.json project root so tools can find it more easily"
 )
-
+endif()
 
 
 
